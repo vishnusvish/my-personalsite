@@ -1,0 +1,33 @@
+
+.profile-image{
+    position: relative;
+    background-image: url('../../assets/image/pic1.jpg');
+    background-size:cover;
+    height: 650px;
+    
+
+    
+  }
+  .small-img{
+    position: absolute;
+    top:72%;
+    left:92%;
+    width: 260px;
+    height: 180px;
+  }
+
+  .about{
+    margin-bottom: 250px;
+    margin-right: 70px;
+   
+  }
+
+  .container{
+    background-color: orangered;
+  }
+  @media only screen and (max-width: 390px){
+    .small-img{
+      display: none;
+    }
+
+  }
